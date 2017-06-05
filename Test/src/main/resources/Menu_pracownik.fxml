@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="559.0" prefWidth="772.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="testjavafxml.Menu_Pracownik_Controller">
+   <center>
+      <StackPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="412.0" prefWidth="764.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <children>
+            <Label fx:id="lImie" text="Imię">
+               <StackPane.margin>
+                  <Insets bottom="200.0" right="150.0" />
+               </StackPane.margin>
+            </Label>
+            <Label fx:id="lNazwisko" text="Nazwisko">
+               <StackPane.margin>
+                  <Insets bottom="150.0" right="150.0" />
+               </StackPane.margin>
+            </Label>
+            <Label fx:id="lUlica" text="Ulica">
+               <StackPane.margin>
+                  <Insets bottom="100.0" right="150.0" />
+               </StackPane.margin>
+            </Label>
+            <Label fx:id="lMiasto" text="Miasto">
+               <StackPane.margin>
+                  <Insets bottom="50.0" right="150.0" />
+               </StackPane.margin>
+            </Label>
+            <Label fx:id="lKod" text="Kod">
+               <StackPane.margin>
+                  <Insets right="150.0" />
+               </StackPane.margin>
+            </Label>
+            <Label fx:id="lHaslo" text="Haslo">
+               <StackPane.margin>
+                  <Insets right="150.0" top="100.0" />
+               </StackPane.margin>
+            </Label>
+            <TextField fx:id="tfNazwisko" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="118.0">
+               <StackPane.margin>
+                  <Insets bottom="150.0" left="70.0" />
+               </StackPane.margin>
+            </TextField>
+            <TextField fx:id="tfImie" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="118.0">
+               <StackPane.margin>
+                  <Insets bottom="200.0" left="70.0" />
+               </StackPane.margin>
+            </TextField>
+            <TextField fx:id="tfUlica" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="118.0">
+               <StackPane.margin>
+                  <Insets bottom="100.0" left="70.0" />
+               </StackPane.margin>
+            </TextField>
+            <TextField fx:id="tfMiasto" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="118.0">
+               <StackPane.margin>
+                  <Insets bottom="50.0" left="70.0" />
+               </StackPane.margin>
+            </TextField>
+            <TextField fx:id="tfKod1" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="48.0">
+               <StackPane.margin>
+                  <Insets />
+               </StackPane.margin>
+            </TextField>
+            <TextField fx:id="tfHaslo" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="118.0">
+               <StackPane.margin>
+                  <Insets left="70.0" top="100.0" />
+               </StackPane.margin>
+            </TextField>
+            <Label fx:id="lKod1" layoutX="89.0" layoutY="153.0" text="-">
+               <StackPane.margin>
+                  <Insets left="70.0" />
+               </StackPane.margin>
+            </Label>
+            <TextField fx:id="tfKod2" layoutX="151.0" layoutY="149.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="48.0">
+               <StackPane.margin>
+                  <Insets left="140.0" />
+               </StackPane.margin>
+            </TextField>
+            <Button fx:id="bZapisz" mnemonicParsing="false" onAction="#ActionButton" text="Zapisz zmiany">
+               <StackPane.margin>
+                  <Insets left="100.0" top="250.0" />
+               </StackPane.margin>
+            </Button>
+            <Label fx:id="lLoginKlienta" prefHeight="17.0" prefWidth="104.0" text="Podaj login klienta">
+               <StackPane.margin>
+                  <Insets bottom="350.0" right="250.0" />
+               </StackPane.margin>
+            </Label>
+            <TextField fx:id="tfLoginKlienta" layoutX="151.0" layoutY="74.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="118.0">
+               <StackPane.margin>
+                  <Insets bottom="300.0" right="250.0" />
+               </StackPane.margin>
+            </TextField>
+            <Label fx:id="lLimit" text="Label">
+               <StackPane.margin>
+                  <Insets bottom="300.0" left="200.0" />
+               </StackPane.margin>
+            </Label>
+            <Label fx:id="lTytul" prefHeight="38.0" prefWidth="104.0" text="Podaj tytuł książki">
+               <StackPane.margin>
+                  <Insets bottom="250.0" right="250.0" />
+               </StackPane.margin>
+            </Label>
+            <TextField fx:id="tfTytul" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="118.0">
+               <StackPane.margin>
+                  <Insets bottom="200.0" right="250.0" />
+               </StackPane.margin>
+            </TextField>
+            <Button fx:id="bWyszukajLogin" mnemonicParsing="false" onAction="#ActionButton" text="Wyszukaj">
+               <StackPane.margin>
+                  <Insets bottom="300.0" right="20.0" />
+               </StackPane.margin>
+            </Button>
+            <Button fx:id="bWyszukajKsiazka" mnemonicParsing="false" text="Wyszukaj">
+               <StackPane.margin>
+                  <Insets bottom="200.0" right="20.0" />
+               </StackPane.margin>
+            </Button>
+            <Button fx:id="bZatwierdz" mnemonicParsing="false" onAction="#ActionButton" text="Wypożycz">
+               <StackPane.margin>
+                  <Insets left="200.0" top="350.0" />
+               </StackPane.margin>
+            </Button>
+            <Label fx:id="lPesel" text="Pesel">
+               <StackPane.margin>
+                  <Insets right="150.0" top="50.0" />
+               </StackPane.margin>
+            </Label>
+            <TextField fx:id="tfPesel" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="121.0">
+               <StackPane.margin>
+                  <Insets left="70.0" top="50.0" />
+               </StackPane.margin>
+            </TextField>
+            <Button fx:id="bZwrot" mnemonicParsing="false" onAction="#ActionButton" text="Zwrot">
+               <StackPane.margin>
+                  <Insets left="200.0" top="350.0" />
+               </StackPane.margin>
+            </Button>
+            <Button fx:id="bWyszukajZwrot" mnemonicParsing="false" onAction="#ActionButton" text="Wyszukaj">
+               <StackPane.margin>
+                  <Insets bottom="300.0" />
+               </StackPane.margin>
+            </Button>
+            <Label fx:id="lStatus" text="Ksiazka niedostepna">
+               <StackPane.margin>
+                  <Insets top="350.0" />
+               </StackPane.margin>
+            </Label>
+            <TableView fx:id="tvKsiazki" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="743.0">
+              <columns>
+                <TableColumn fx:id="tcTytul" prefWidth="141.0" text="Tytul" />
+                <TableColumn fx:id="tcAutor" prefWidth="94.0" text="Autor" />
+                  <TableColumn fx:id="tcStatus" minWidth="4.0" prefWidth="91.0" text="Status" />
+                  <TableColumn fx:id="tcData_wyp" prefWidth="103.0" text="Data wyp" />
+                  <TableColumn fx:id="tcData_zwr" prefWidth="119.0" text="Data zwr" />
+                  <TableColumn fx:id="tcLogin" minWidth="0.0" prefWidth="121.0" text="Login klienta" />
+              </columns>
+               <StackPane.margin>
+                  <Insets top="100.0" />
+               </StackPane.margin>
+            </TableView>
+            <Button fx:id="bPokaz" mnemonicParsing="false" onAction="#ActionButton" text="Pokaz">
+               <StackPane.margin>
+                  <Insets bottom="300.0" left="150.0" />
+               </StackPane.margin>
+            </Button>
+         </children>
+      </StackPane>
+   </center>
+   <top>
+      <HBox prefHeight="75.0" prefWidth="772.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="bEditSwoje" mnemonicParsing="false" onAction="#ActionButton" prefHeight="78.0" prefWidth="150.0" text="Edytuj swoje dane" />
+            <Button fx:id="bEditClient" mnemonicParsing="false" onAction="#ActionButton" prefHeight="75.0" prefWidth="147.0" text="Edytuj dane  klienta" />
+            <Button fx:id="bWyszukaj" mnemonicParsing="false" onAction="#ActionButton" prefHeight="75.0" prefWidth="148.0" text="Wyszukaj książkę" />
+            <Button fx:id="bWypozycz" mnemonicParsing="false" onAction="#ActionButton" prefHeight="75.0" prefWidth="140.0" text="Wypożycz książkę" />
+            <Button fx:id="bPrzyjmij" mnemonicParsing="false" onAction="#ActionButton" prefHeight="75.0" prefWidth="140.0" text="Przyjmij zwrot" />
+         </children>
+      </HBox>
+   </top>
+</BorderPane>
