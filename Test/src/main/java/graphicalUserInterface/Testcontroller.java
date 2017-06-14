@@ -106,6 +106,8 @@ public class Testcontroller  {
 						 stage.setScene(scena1);
 							stage.setTitle("Menu Admin");
 					 		stage.show();
+					 		tfLogin.clear();
+					 		pfPassword.clear();
 						
  				            ((Node) e.getSource()).getScene().getWindow().hide();
  				           
@@ -145,6 +147,8 @@ public class Testcontroller  {
 	 						 stage.setScene(scena1);
 	 							stage.setTitle("Menu Pracownik");
 	 					 		stage.show();
+						 		tfLogin.clear();
+						 		pfPassword.clear();
 	 				            ((Node) e.getSource()).getScene().getWindow().hide();
 
 						}
@@ -178,6 +182,8 @@ public class Testcontroller  {
 	 						 stage1.setScene(scena2);
 	 							stage1.setTitle("Menu Uzytkownik");
 	 					 		stage1.show();
+						 		tfLogin.clear();
+						 		pfPassword.clear();
 	 				            
 	 					 		//((Node) e.getSource()).getScene().getWindow().hide();
 
